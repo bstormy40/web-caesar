@@ -1,4 +1,5 @@
 import string
+alphabet = string.ascii_lowercase
 def alphabet_position(char):
     newchar = str.lower(char)
     CharIndex = alphabet.index(newchar)
@@ -16,7 +17,7 @@ def rotate_character(char, rot):
         else:
             return encrypted
     return char
-alphabet = string.ascii_lowercase
+
 
 def encrypt(text, rot):
     encryption = ''
